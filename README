@@ -1,0 +1,72 @@
+See the attached CS314_Project2.py.
+
+You should use Python3 on the iLabs to complete the project, however be careful not to import any analysis tools not already imported or used. The intention is for you to code the necessary functionality to see Python in action, not call in to a library.
+
+
+The project description in the file is reproduced below:
+
+'''
+Compatible with Python3.6
+################################ ***************************** ####################################################
+# Do not import any additional libraries. Everything that is needed to complete the assignment is already imported.
+# Also, please do not use numpy in any of the code you will be filling in.
+#   Points will be deducted for using numpy built in functions.
+# Functools can only be used to call on the 'reduce' fuction. ie: ft.reduce()
+#   All other functions used from functools will result in point deductions
+################################ ***************************** ####################################################
+'''
+
+
+
+'''
+################################ Project Overview #################################################################
+Data science can be as much an art as .. well, a science. Understanding how different analyses work, what they can do and what their limitations are allows you to use them effectively. Choosing the right types of analysis can be quite tricky. When faced with a sea of data, how are you to condition and measure it in order to wring out some useful observations? Well, that is not the subject of this course. You will however get a taste of how to use Python in order to perform data analysis.
+
+The analyses necessary to generate some interesting observations on GDP, energy use and population mechanics is below, however it needs some critical parts filled in. First you'll fill in some functions that will provide fundamental numerical measurements that will power the statistical analyses that come later. Afterward, you'll use the imported data and some of the functions you've written to generate some the observations. The sourcing and cleaning of the data, the analysis and conditioning and plotting has already been done for you!
+
+Look for the sections below that are marked:
+    #### FILL IN CODE HERE ####
+    or:
+    # FILL IN CODE HERE
+    
+  to find the places below where your Python expertise is needed.
+ 
+Python is often used in data science and analysis because it is fairly easily to represent data as streams of values that can have actions applied to them. Many types of statistical analysis take this form; apply an operation to a stream of values or to corresponding values in different streams, then use the output of one result as the input to another. Making this linking of operations on streams of data simple to code and graph means Python is fairly well suited for investigating decently-sized sets of data.  
+
+To get started, first download the dataset at:
+    https://perso.telecom-paristech.fr/eagan/class/igr204/data/factbook.csv
+.. and make sure that the 'factbook.csv' file is in the same directory as this code file.
+
+Then, look for parts labelled:
+    #### FILL IN CODE HERE ####
+    or:
+    # FILL IN CODE HERE
+.. in the code and fill in the required functionality.
+
+Then use the functions you coded to complete the analysis/investigation parts entitled:
+ question0
+ question1
+ question2
+ question3
+Refer to the commented instructions at each specific function for more detailed description of what to code.
+
+Once you fill in the computations to generate the necessary statistics, the following graphs will automatically be generated to demonstrate an observation/answer to each question:
+(be sure to submit your completed CS314_Project2.py file, not the images!)
+-question0:
+'Q0_0_Plots.png'
+'Q0_1_Plots.png'
+
+-question1
+'Q1_0_Plots.png'
+'Q1_1_Plots.png'
+
+-question2
+'Q2_0_Plots.png'
+'Q2_1_Plots.png'
+
+-question3
+'Q3_Linear_Model_Fit_Plots.png'
+
+
+In order to complete your project, submit your working CS314_Project2.py ,not the images!
+'''
